@@ -1,0 +1,46 @@
+name: flutter_new
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get:
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+#  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/maps/
+
+  fonts:
+    - family: Raguler
+      fonts:
+        - asset: assets/fonts/cretype  Caros.otf
+
+    - family: Light
+      fonts:
+        - asset: assets/fonts/cretype  Caros Light.otf
+
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/cretype  Caros Medium.otf
+
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/cretype  Caros Bold.otf
+
+    - family: ExtraBold
+      fonts:
+        - asset: assets/fonts/cretype  Caros ExtraBold.otf
+  uses-material-design: true
+
